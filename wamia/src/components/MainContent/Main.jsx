@@ -4,11 +4,10 @@ import '../../../src/styles/main.css'; // Ensure this includes slick-carousel st
 
 const Main = () => {
   const carouselImages = [
-    { src: '/images/coussin_de_grossesse.png', alt: 'Coussin de Grossesse' },
-    { src: '/images/teck.png', alt: 'Derma Roller' },
-    { src: '/images/gratuit.png', alt: 'Pare Soleil' },
-    { src: '/images/smartphone.png', alt: 'Promo' },
-  ];
+    { src: `${process.env.PUBLIC_URL}/images/coussin_de_grossesse.png`, alt: 'Coussin de Grossesse' },
+    { src: `${process.env.PUBLIC_URL}/images/teck.png`, alt: 'Derma Roller' },
+    { src: `${process.env.PUBLIC_URL}/images/gratuit.png`, alt: 'Pare Soleil' },
+    { src: `${process.env.PUBLIC_URL}/images/smartphone.png`, alt: 'Promo' }  ];
 
   const settings = {
     dots: true,
@@ -37,7 +36,7 @@ const Main = () => {
                         <a href="/catalogsearch/result/?q=derma">
                           <img
                             style={{ borderRadius: '7px', color: '#a8b4c0' }}
-                            src="/images/Derma_Roller.png"
+                            src={`${process.env.PUBLIC_URL}/images/Derma_Roller.png`}
                             alt="Derma_roller"
                             width="455"
                             height="260"
@@ -50,7 +49,7 @@ const Main = () => {
                         <a href="/auto-moto/accessoires-auto/pare-soleil.html">
                           <img
                             style={{ borderRadius: '7px', color: '#a8b4c0' }}
-                            src="/images/pare_soleil.png"
+                            src={`${process.env.PUBLIC_URL}/images/pare_soleil.png`}
                             alt="Pare_soleil"
                             width="455"
                             height="260"
@@ -96,7 +95,7 @@ const Main = () => {
                         <a href="/tunisie-promo.html">
                           <img
                             style={{ borderRadius: '7px', borderColor: '#A8B4C0' }}
-                            src="/images/promo.png"
+                            src={`${process.env.PUBLIC_URL}/images/promo.png`}
                             alt="tunisie-promo"
                             width="455"
                             height="260"
@@ -109,7 +108,7 @@ const Main = () => {
                         <a href="/nouveaute.html">
                           <img
                             style={{ borderRadius: '7px', borderColor: '#A8B4C0' }}
-                            src="/images/nouveaute.png"
+                            src={`${process.env.PUBLIC_URL}/images/nouveaute.png`}
                             alt="nouveauté"
                             width="455"
                             height="260"
@@ -138,7 +137,7 @@ const Main = () => {
                 <a href="/tout-a-moins-20-dinar.html">
                   <img
                     style={{ borderRadius: '5px' }}
-                    src="/images/tout_a_moins_20_dinar.png"
+                    src={`${process.env.PUBLIC_URL}/images/tout_a_moins_20_dinar.png`}
                     alt="tout-a-moins-20-dinar"
                     width="1720"
                     height="230"
@@ -153,7 +152,7 @@ const Main = () => {
                   <a href="/bons-plans.html">
                     <img
                       style={{ borderRadius: '5px' }}
-                      src="/images/bon_plan.png"
+                      src={`${process.env.PUBLIC_URL}/images/bon_plan.png`}
                       alt="bons-plans"
                       width="1720"
                       height="230"
@@ -170,7 +169,7 @@ const Main = () => {
                     <a href="/service-client">
                       <img
                         style={{ borderRadius: '5px' }}
-                        src="images/Wamia_timing_.png"
+                        src={`${process.env.PUBLIC_URL}/images/Wamia_timing_.png`}
                         alt="service_client"
                         width={554}
                         height={315}
@@ -183,7 +182,7 @@ const Main = () => {
                     <a href="/livraison">
                       <img
                         style={{ borderRadius: '5px' }}
-                        src="images/paiement.jpg"
+                        src={`${process.env.PUBLIC_URL}/images/paiement.jpg`}
                         alt="mode de paiement"
                         width={554}
                         height={315}
@@ -196,7 +195,7 @@ const Main = () => {
                     <a href="/politique-d-echange">
                       <img
                         style={{ borderRadius: '5px' }}
-                        src="images/politique_de_retour.jpg"
+                        src={`${process.env.PUBLIC_URL}/images/politique_de_retour.jpg`}
                         alt="politique_de_retour"
                         width={554}
                         height={315}

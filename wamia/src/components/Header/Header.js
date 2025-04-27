@@ -20,8 +20,9 @@ const Header = () => {
                   <div className="col-sm-6 header-panel-left">
                     <span className="action nav-toggle"><span>Basculer la navigation</span></span>
                     <a className="logo" href="https://www.wamia.tn/" title="">
-                      <img className="main-logo hidden-xs" src="/images/Sans_titre-1-R_cup_r_.png" alt="" />
-                      <img className="small-logo visible-xs" src="/images/Sans_titre-1-R_cup_r_.png" alt="" />
+                      <img className="main-logo hidden-xs" src={`${process.env.PUBLIC_URL}/images/Sans_titre-1-R_cup_r_.png`} alt="" />
+
+                      <img className="small-logo visible-xs" src={`${process.env.PUBLIC_URL}/images/Sans_titre-1-R_cup_r_.png`} alt="" />
                     </a>
                   </div>
                   <div className="col-sm-11 header-panel-center header-search-wrap">
