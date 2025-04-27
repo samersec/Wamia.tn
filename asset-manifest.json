@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Wamia.tn/static/css/main.778b658c.css",
+    "main.js": "/Wamia.tn/static/js/main.03ce8222.js",
+    "static/js/453.0f8a32aa.chunk.js": "/Wamia.tn/static/js/453.0f8a32aa.chunk.js",
+    "static/media/slick.svg": "/Wamia.tn/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Wamia.tn/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Wamia.tn/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Wamia.tn/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Wamia.tn/index.html",
+    "main.778b658c.css.map": "/Wamia.tn/static/css/main.778b658c.css.map",
+    "main.03ce8222.js.map": "/Wamia.tn/static/js/main.03ce8222.js.map",
+    "453.0f8a32aa.chunk.js.map": "/Wamia.tn/static/js/453.0f8a32aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.778b658c.css",
+    "static/js/main.03ce8222.js"
+  ]
+}
